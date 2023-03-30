@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!--  Timeout -->
+    <Timeout>5</Timeout>
+
+<!--    <PlatformName>desktop</PlatformName>-->
+
+    <!-- web -->
+
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000/</url>
+    <ImageRepo>c:\\Automation\\GrafanaTestProject\\ImageRepository\\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <DTTFile>DDTFiles/users.csv</DTTFile>
+
+<!--    Mobile -->
+    <UDID>M7BBB18B03154979</UDID>
+    <APP_PACKAGE>org.sefaria.sefaria</APP_PACKAGE>
+    <APP_ACTIVITY>.SplashActivity</APP_ACTIVITY>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+<!--    API  -->
+    <urlAPI>http://localhost:3000/</urlAPI>
+
+<!--    AUTHORISATION -->
+    <username>admin</username>
+    <password>admin</password>
+
+<!--    Electron  -->
+    <ElectronDriver_Path>./Drivers/electrondriver.exe</ElectronDriver_Path>
+    <ElectronApp_Path>C:/Users/Aharo/AppData/Local/Programs/todolist/Todolist.exe</ElectronApp_Path>
+
+<!--    Desktop  -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+<!--    DATABASE  -->
+    <DBUrl>jdbc:mysql://remotemysql.com:3306/username</DBUrl>
+    <DBuser>username</DBuser>
+    <DBpass></DBpass>
+</Environment>
